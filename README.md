@@ -39,9 +39,11 @@ npm install
 ```
 
 ### 3. Create .env file
+```bash
 MONGO_URI=mongodb://127.0.0.1:27017/voting_app
 JWT_SECRET=your_secret_key
 PORT=5000
+```
 
 ### 4. Start MongoDB
 Make sure MongoDB is running locally
@@ -76,3 +78,4 @@ npm test
 - GET /admin/summary => View total votes & results
 
 ---
+
